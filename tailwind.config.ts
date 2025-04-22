@@ -18,6 +18,10 @@ export default {
 			}
 		},
 		extend: {
+			fontFamily: {
+                'sans': ['Poppins', 'sans-serif'],
+                'display': ['Lato', 'sans-serif'],
+            },
 			colors: {
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
@@ -52,6 +56,14 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+                nutri: {
+                    'green-dark': '#145A32',
+                    'green': '#2E7D32',
+                    'green-light': '#66BB6A',
+                    'cream': '#F9FBE7',
+                    'yellow': '#FBC02D',
+                    'orange': '#FB8C00',
+                },
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
